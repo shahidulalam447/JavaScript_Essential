@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/clock.css" />
+    <link rel="stylesheet" href="css/stopwatch.css" />
+
+    <title>Project 01</title>
+  </head>
+  <body>
+
+        <!-- Calculator -->
+    <div class="caContainer" style="padding-left: 10px; padding-top: 5px;">
+      <h2 style="color: aliceblue; padding-left: 20px; padding-top: 5px;">Calculator</h2>
+      <div class="container">
+        <div class="calculator">
+        <input type="text" id="inputBox" placeholder="0" />
+        <div>
+          <button class="button operator">AC</button>
+          <button class="button operator">DEL</button>
+          <button class="button operator">%</button>
+          <button class="button operator">/</button>
+        </div>
+        <div>
+          <button class="button">7</button>
+          <button class="button">8</button>
+          <button class="button">9</button>
+          <button class="button operator">*</button>
+        </div>
+        <div>
+          <button class="button">4</button>
+          <button class="button">5</button>
+          <button class="button">6</button>
+          <button class="button operator">-</button>
+        </div>
+        <div>
+          <button class="button">1</button>
+          <button class="button">2</button>
+          <button class="button">3</button>
+          <button class="button operator">+</button>
+        </div>
+
+        <div>
+          <button class="button">00</button>
+          <button class="button">0</button>
+          <button class="button">.</button>
+          <button class="button equalBtn">=</button>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <!-- Clock -->
+    <div >
+      <h2 style="color: aliceblue; padding-left: 20px; padding-top: 20px;">Clock</h2>
+      <div class="co_container">
+        <div class="clock">
+          <div style="--clr: #ff3d58; --h: 74px" id="hour" class="hand">
+            <i></i>
+          </div>
+          <div style="--clr: #00a6ff; --h: 84px" id="min" class="hand">
+            <i></i>
+          </div>
+          <div style="--clr: #ffffff; --h: 94px" id="sec" class="hand">
+            <i></i>
+          </div>
+  
+          <span style="--i: 1"><b>1</b></span>
+          <span style="--i: 2"><b>2</b></span>
+          <span style="--i: 3"><b>3</b></span>
+          <span style="--i: 4"><b>4</b></span>
+          <span style="--i: 5"><b>5</b></span>
+          <span style="--i: 6"><b>6</b></span>
+          <span style="--i: 7"><b>7</b></span>
+          <span style="--i: 8"><b>8</b></span>
+          <span style="--i: 9"><b>9</b></span>
+          <span style="--i: 10"><b>10</b></span>
+          <span style="--i: 11"><b>11</b></span>
+          <span style="--i: 12"><b>12</b></span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Stopwatch -->
+    <div class="stop_container" style="padding-right: 10px;">
+      <h2 style="color: aliceblue; padding: 50px;">Stopwatch</h2>
+      <div class="stopwatch">
+        <div class="timerDisplay">00 : 00 : 00</div>
+      </div>
+
+      <div class="buttons_sp">
+        <button id="stopBtnsp" class="btn">Stop</button>
+
+        <button id="startBtnsp" class="btn">Start</button>
+
+        <button id="resetBtnsp" class="btn">Reset</button>
+        </div>
+    </div>
+    
+
+    <script src="js/script.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/stopwatch.js"></script>
+
+  </body>
+</html>
